@@ -1,0 +1,100 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+body{
+    background-image: url(https://c.pshere.com/photos/5e/de/background_background_image_clouds_cloudy_cloudy_sky_cold_dawn_desktop_backgrounds-1000061.jpg!d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.menu-bar{
+    background: rgba(0,100,0);
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active,.menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+
+}
+
+.sub-menu-1{
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+
+
+h2{
+text-align:left;
+font-size: 20px;
+}
+
+h3{
+    text-align:center;
+    font-size: 30px;
+}
